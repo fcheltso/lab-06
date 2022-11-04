@@ -66,4 +66,4 @@ Scale of both axis is the same now so we can actually compare masks to nomasks.
 
 ### Exercise 4
 
-*Add your narrative here.*
+In this visualisation, the number of count mask decreases in a rapid rate and lose almost half of the original number, but the number of count no mask is always at a stable place which has few changes during these time.

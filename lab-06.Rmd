@@ -46,7 +46,16 @@ df <- tribble(
 ### Exercise 2
 
 ```{r better-viz}
-# add code here
+df2 <- df %>% pivot_longer(cols = c("count_mask", "count_no_mask"), 
+                    names_to = "mask_bool", 
+                    values_to = "values")
+
+ggplot(df2, aes(x = date, y = values, group = mask_bool, colour = mask_bool)) + 
+  geom_line() +
+  theme(
+    axis.text.x = element_text(angle = 45)
+    )
+
 ```
 
 

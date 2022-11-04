@@ -61,7 +61,7 @@ ggplot(df2, aes(x = date, y = values, group = mask_bool, colour = mask_bool)) +
 
 ### Exercise 3
 
-*Add your narrative here.*
+Scale of both axis is the same now so we can actually compare masks to nomasks.
 
 
 ### Exercise 4
